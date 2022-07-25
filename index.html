@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width:800px)" href="table.css">
+        <link rel="stylesheet" media="screen and (max-width:530px" href="phone.css">
+    </head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACTS</a></li>       
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> BIBEK KC</h1>
+            <button class="btn">
+                LEARNER
+            </button>      
+        </div>
+    </section>
+    <section id="about">
+         <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">
+
+             <img src="imp1.jpg" alt="">
+             <div id="intro">
+                <h2>BIBEK KC</h2>
+                <p>Hi, I’m Bibek! I'm a web developer, android and machine learning learner. In a nutshell, I create websites that help organizations address business challenges and meet their needs. I manage everything from website navigation and layout to a company's web hosting and security architecture. My expertise lies within front-end web apps, and the main languages in my tech stack are of course HTML/CSS. I’m a lifelong learner (currently taking a course on building AI chatbots with Python!) and love to read, run, and find new bubble tea shops. I am currently working on for learning android development using flutter and machine learning.</p>
+             </div>
+        </div>
+    </section>
+    <section id="portfolio">
+    <h1 class="headings">PORTFOLIO</h1>
+    <div class="gallary">
+        <img src="Port1.jpg" alt="">
+        <img src="Port2.jpg" alt="">
+        <img src="Port3.jpg" alt="">
+        <img src="Port4.jpg" alt="">
+        <img src="Port5.jpg" alt="">
+        <img src="Port6.jpg" alt="">
+
+    </div>
+</section>
+<section id="services">
+    <h1 class="headings">SERVICES</h1>
+    <div class="row">
+    <div class="box" >
+        <img src="internet.png" alt="">
+      <h1 class="headings">Websites Design</h1>
+     <p>A web designer is an IT professional who is responsible for designing the layout and interface of websites. Users interact with a web designer's work as soon as they enter a website. Web design includes the graphics, text font, colors, icons, and presentation of the content that creates the user experience.</p>
+    </div>
+    <div class="box" >
+        <img src="app.png" alt="">
+        <h1 class="headings">Android developer</h1>
+      <p>Flutter is a new way to build UIs for mobile, but it has a plugin system to communicate with Android (and iOS) for non-UI tasks. If you're an expert with Android, you don't have to relearn everything to use Flutter.With Flutter, you can create the best cross-platform apps available on the market.</p>
+    </div>
+      <div class="box" >
+        <img src="learn.png" alt="">
+        <h1 class="headings">Machine learning</h1>
+        <p>Machine learning is mainly focused on the development of computer programs which can teach themselves to grow and change when exposed to new data. Machine learning studies algorithms for self-learning to do stuff. It can process massive data faster with the learning algorithm. </p>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="mailto:kcbibek43@gmail.com" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter your Name" >
+        <input type="email" name="email" class="input" placeholder="Enter your Email" >
+        <textarea name="msg" id="msg" cols="30" rows="10"
+        placeholder="Enter your Message"></textarea>
+        <input type="submit" value="SEND" id="send">
+    </form>
+</section>
+</body>
+    </html>
